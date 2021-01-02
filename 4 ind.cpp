@@ -1,3 +1,5 @@
+/////4 индивидуальное, 11 вариант
+
 #include <iostream>
 
 using namespace std;
