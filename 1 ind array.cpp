@@ -10,7 +10,7 @@ int main()
     int i = 0;
     int s, l;
     int number_10system = 0;
-    cout << "Ââåäèòå ÷èñëî â ÷åòûðíàäöàòåðè÷íîé ñèñòåìå ñ÷èñëåíèÿ: ";
+    cout << "Введите число в четырнадцатеричной системе счисления: ";
     gets (number_14system);
     cout << endl;
     while (number_14system[i])
@@ -55,7 +55,7 @@ int main()
        position--;
        number_10system = number_10system / 16;
     }
-    cout << "Ýòî ÷èñëî â øåñòíàäöàòåðè÷íîé ñèñòåìå ñ÷èñëåíèÿ: ";
+    cout << "Это число в шестнадцатеричной системе счисления: ";
     for (int k = 0; k <= number; k++)
     {
         cout << number_16system[k];
