@@ -11,7 +11,7 @@ int main()
     int i = 0;
     int s, l;
     int number_10system = 0;
-    cout << "Ââåäèòå ÷èñëî â ÷åòûğíàäöàòåğè÷íîé ñèñòåìå ñ÷èñëåíèÿ: ";
+    cout << "Ğ’Ğ²ĞµĞ´Ğ¸Ñ‚Ğµ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ² Ñ‡ĞµÑ‚Ñ‹Ñ€Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ĞµÑ€Ğ¸Ñ‡Ğ½Ğ¾Ğ¹ ÑĞ¸ÑÑ‚ĞµĞ¼Ğµ ÑÑ‡Ğ¸ÑĞ»ĞµĞ½Ğ¸Ñ: ";
     getline(cin, number_14system);
     cout << endl;
     while (number_14system[i])
@@ -56,7 +56,7 @@ int main()
        position--;
        number_10system = number_10system / 16;
     }
-    cout << "İòî ÷èñëî â øåñòíàäöàòåğè÷íîé ñèñòåìå ñ÷èñëåíèÿ: ";
+    cout << "Ğ­Ñ‚Ğ¾ Ñ‡Ğ¸ÑĞ»Ğ¾ Ğ² ÑˆĞµÑÑ‚Ğ½Ğ°Ğ´Ñ†Ğ°Ñ‚ĞµÑ€Ğ¸Ñ‡Ğ½Ğ¾Ğ¹ ÑĞ¸ÑÑ‚ĞµĞ¼Ğµ ÑÑ‡Ğ¸ÑĞ»ĞµĞ½Ğ¸Ñ: ";
     for (int k = 0; k <= number; k++)
     {
         cout << number_16system[k];
