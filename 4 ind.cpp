@@ -361,5 +361,6 @@ void subtraction_func(char* number1, char* number2, char* subtraction)
     {
         cout << subtraction[s];
     }
+return 0;    
 }
 
